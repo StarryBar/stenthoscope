@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ISODATA - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\j\AppData\Local\Temp\RSP52B2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ISODATA.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\项目设计\92292135ISODATA\ISODATA.CPP"
+]
+Creating command line "cl.exe @C:\Users\j\AppData\Local\Temp\RSP52B2.tmp" 
+Creating temporary file "C:\Users\j\AppData\Local\Temp\RSP52B3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ISODATA.pdb" /debug /machine:I386 /out:"Debug/ISODATA.exe" /pdbtype:sept 
+".\Debug\ISODATA.OBJ"
+]
+Creating command line "link.exe @C:\Users\j\AppData\Local\Temp\RSP52B3.tmp"
+<h3>Output Window</h3>
+Compiling...
+ISODATA.CPP
+E:\项目设计\92292135ISODATA\ISODATA.CPP(17) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\项目设计\92292135ISODATA\ISODATA.CPP(148) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+ISODATA.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

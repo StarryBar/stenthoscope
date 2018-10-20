@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: testChartDll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/testChartDll.res" /d "_DEBUG" /d "_AFXDLL" "D:\program files (x86)\visual c++ 6.0\Microsoft Visual Studio\MyProjects\rx_chart07-04-02\SealedChart4-05\testChartDll.rc"" 
+Creating temporary file "C:\Users\j\AppData\Local\Temp\RSPF1A9.tmp" with contents
+[
+va_g729a.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/testChartDll.pdb" /debug /machine:I386 /out:"Debug/testChartDll.exe" /pdbtype:sept /libpath:"./lib" 
+".\Debug\AudioPlay.obj"
+".\Debug\AudioRecord.obj"
+".\Debug\ChartLine.obj"
+".\Debug\ChartRx.obj"
+".\Debug\ChartSerial.obj"
+".\Debug\ChartSetting.obj"
+".\Debug\ChartWnd.obj"
+".\Debug\gbl.obj"
+".\Debug\ScrollChart.obj"
+".\Debug\soundlist.obj"
+".\Debug\StdAfx.obj"
+".\Debug\svd.obj"
+".\Debug\testChartDll.obj"
+".\Debug\testChartDllDlg.obj"
+".\Debug\testChartDll.res"
+]
+Creating command line "link.exe @C:\Users\j\AppData\Local\Temp\RSPF1A9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+testChartDll.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
